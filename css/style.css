@@ -1,0 +1,36 @@
+/*general*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.debug{
+    border: 1px solid black;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.content{
+    width: 40%;
+}
+
+.image{
+    width: 60%;
+}
+
+.row-direction{
+    flex-direction: row-reverse;
+}
+
+.content-center{
+    justify-content: center;
+}
