@@ -1,3 +1,7 @@
+/*color*/
+:root
+
+
 /*general*/
 
 *{
@@ -6,17 +10,64 @@
     padding: 0;
 }
 
+.d-flex{
+    display: flex;
+}
+
+div ul li{
+    list-style: none;
+    
+}
 
 .debug{
     border: 1px solid black;
 }
 
-.container{
-    max-width: 1200px;
+.align-center{
+    align-items: center;
+
 }
 
-.d-flex{
-    display: flex;
+/*header*/
+
+
+header{
+    background-color: #3065E8;
+    background-image: url("../img/jumbo.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero{
+    text-align: center;
+    
+}
+
+#space-around{
+    margin-bottom: 20px;
+
+}
+
+header .navbar ul li a{
+    padding: 6px 10px;
+    text-decoration: none;
+    color: white;
+}
+   
+.navbar{
+    padding: 20px;
+}
+    /*main*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .content{
@@ -31,6 +82,22 @@
     flex-direction: row-reverse;
 }
 
-.content-center{
-    justify-content: center;
+/*footer*/
+
+footer{
+    background-color:#23272A;
+    color: white;
+}
+
+.bottom{
+    border-top: 1px solid white;
+}
+
+.column ul li{
+    flex-direction: column;
+    
+}
+
+.space-between{
+    justify-content: space-between;
 }
