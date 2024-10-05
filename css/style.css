@@ -28,6 +28,9 @@ div ul li{
 
 }
 
+header li{
+    font-size: 1.3em;
+}
 /*header*/
 
 
@@ -53,6 +56,7 @@ header .navbar ul li a{
     padding: 6px 10px;
     text-decoration: none;
     color: white;
+    
 }
    
 .navbar{
@@ -63,6 +67,7 @@ header .navbar ul li a{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px 10px;
 }
 
 .container-small{
@@ -101,3 +106,21 @@ footer{
 .space-between{
     justify-content: space-between;
 }
+
+.column{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.stars{
+    background-image: url("../img/stars.svg");
+    
+}
+
+.italy{
+    width: 30px;
+    height: 20px;
+}
+
